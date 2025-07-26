@@ -101,7 +101,3 @@ Financial Prompts: 1000 labeled queries (50% PII, 50% non-PII)
 Medical Prompts: 1000 labeled queries (50% PII, 50% non-PII)
 Multi-entity Support: ~30% prompts involve multiple customers/patients
 ```
-
-This framework was developed to address the critical need for privacy-preserving AI systems in business environments. By providing comprehensive, realistic training data for PII detection, we aim to help organizations build more trustworthy and compliant AI systems.
-
-**Happy Training! 🚀** 
