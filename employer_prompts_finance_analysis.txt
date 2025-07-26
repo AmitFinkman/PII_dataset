@@ -1,0 +1,44 @@
+EMPLOYER PROMPT DATASET - ANALYSIS REPORT
+============================================================
+
+Total Prompts Generated: 1000
+Prompts with PII: 500 (50.0%)
+Prompts without PII: 500 (50.0%)
+
+LABEL VERIFICATION:
+--------------------
+Correctly Labeled: 1000 (100.0%)
+Mislabeled: 0 (0.0%)
+
+SAMPLE PROMPTS WITH PII:
+------------------------------
+1. Verify the identity of James Lopez using SSN 509-90-7342 and DOB 03/27/1977
+
+2. Generate a customer portfolio report for Melissa Johnson (ID: e5a3d8e9-44c1-41b5-abbb-d76379a7e63b)
+
+3. Can you pull up the financial profile for cynthiarogers@outlook.com?
+
+4. Update contact information for Diane Sweeney at 99062 Kelly Vista Suite 655, Nelsonland, ID 18341 and Philip Cook at 3173 Wall View Suite 831, Duranmouth, OR 16862
+
+5. Verify joint account holders: Jenna Henderson (SSN: 194-76-7185) and Teresa English (SSN: 239-48-1005)
+
+SAMPLE PROMPTS WITHOUT PII:
+------------------------------
+1. Generate a guide for explaining investment risks to customers
+
+2. How should we prioritize feature requests from customers?
+
+3. Create a standard procedure for loan application processing
+
+4. Design a workshop on fraud detection techniques
+
+5. What markets should we expand into next year?
+
+DATASET FEATURES:
+====================
+✓ Realistic employer queries for financial LLM use cases
+✓ Balanced PII vs non-PII distribution
+✓ Comprehensive coverage of banking scenarios
+✓ Ground truth labels for PII detection training
+✓ Verification flags for data quality assurance
+✓ Source traceability to original customer records
