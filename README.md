@@ -1,19 +1,19 @@
 # PII Detection Datasets Framework
 
-## 🎯 Overview
+## Overview
 
 A comprehensive framework for generating realistic fake datasets and employer prompt datasets specifically designed for training and evaluating **Personally Identifiable Information (PII) detection** in Large Language Models (LLMs). This project addresses the critical need for privacy-preserving AI systems in business environments.
 
-## 🚀 Purpose & Motivation
+## Purpose & Motivation
 
 Modern organizations increasingly rely on LLMs for business operations, but these models must be trained to recognize and appropriately handle sensitive data. This framework provides:
 
-- **🎓 Training Data** for PII detection algorithms
-- **📊 Evaluation Benchmarks** for privacy-preserving LLM systems  
-- **🔒 Compliance Testing** for GDPR, HIPAA, and other privacy regulations
-- **🔬 Research Foundation** for privacy-preserving AI development
+- ** Training Data** for PII detection algorithms
+- ** Evaluation Benchmarks** for privacy-preserving LLM systems  
+- ** Compliance Testing** for GDPR, HIPAA, and other privacy regulations
+- ** Research Foundation** for privacy-preserving AI development
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 datset/
@@ -21,7 +21,7 @@ datset/
 ├── PII_Detection_Datasets_Summary.txt           # Comprehensive project documentation
 ├── domain_ideas_reference.md                    # Additional domain expansion ideas
 │
-├── 💰 FINANCIAL SERVICES DOMAIN
+├── FINANCIAL SERVICES DOMAIN
 ├── create_financial_dataset.py                  # Financial customer data generator
 ├── create_prompt_dataset.py                     # Financial employer prompt generator
 ├── financial_dataset_*.csv                      # Generated financial customer data
@@ -31,7 +31,7 @@ datset/
 │   ├── financial_dataset.json                   # Financial source data (JSON)
 │   └── financial_dataset_summary.txt            # Detailed column explanations
 │
-├── 🏥 HEALTHCARE/MEDICAL DOMAIN
+├── HEALTHCARE/MEDICAL DOMAIN
 ├── create_dataset.py                            # Medical patient data generator  
 ├── create_medical_prompt_dataset.py             # Medical employer prompt generator
 ├── employer_prompts_medical.csv                 # Generated medical prompts with PII labels
@@ -40,12 +40,12 @@ datset/
 │   ├── medical_org_dataset_*.json               # Medical source data (JSON)
 │   └── medical_org_dataset_summary.txt          # Detailed column explanations
 │
-└── 📊 ANALYSIS & REPORTS
+└── ANALYSIS & REPORTS
     ├── *_analysis.txt                           # Statistical analysis reports
     └── *_summary_*.txt                          # Comprehensive summaries
 ```
 
-## 🏗️ Core Components
+## Core Components
 
 ### 1. **Source Dataset Generators**
 Generate realistic fake customer/patient records with sophisticated relationships:
@@ -65,7 +65,7 @@ Comprehensive PII identification with exact indices:
 - **Financial Domain**: 17 PII types (SSNs, account numbers, credit scores, etc.)
 - **Medical Domain**: 18 PII types (medical records, blood types, diagnoses, etc.)
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 ### Financial Services Dataset
 ```
