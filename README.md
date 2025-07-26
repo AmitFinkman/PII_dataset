@@ -13,38 +13,6 @@ Modern organizations increasingly rely on LLMs for business operations, but thes
 - **🔒 Compliance Testing** for GDPR, HIPAA, and other privacy regulations
 - **🔬 Research Foundation** for privacy-preserving AI development
 
-## 📁 Project Structure
-
-```
-datset/
-├── README.md                                    # This file
-├── PII_Detection_Datasets_Summary.txt           # Comprehensive project documentation
-├── domain_ideas_reference.md                    # Additional domain expansion ideas
-│
-├── 💰 FINANCIAL SERVICES DOMAIN
-├── create_financial_dataset.py                  # Financial customer data generator
-├── create_prompt_dataset.py                     # Financial employer prompt generator
-├── financial_dataset_*.csv                      # Generated financial customer data
-├── employer_prompts_finance_*.csv               # Generated financial prompts with PII labels
-├── finance/
-│   ├── financial_dataset.csv                    # Financial source data
-│   ├── financial_dataset.json                   # Financial source data (JSON)
-│   └── financial_dataset_summary.txt            # Detailed column explanations
-│
-├── 🏥 HEALTHCARE/MEDICAL DOMAIN
-├── create_dataset.py                            # Medical patient data generator  
-├── create_medical_prompt_dataset.py             # Medical employer prompt generator
-├── employer_prompts_medical.csv                 # Generated medical prompts with PII labels
-├── medical/
-│   ├── medical_org_dataset_*.csv                # Medical source data
-│   ├── medical_org_dataset_*.json               # Medical source data (JSON)
-│   └── medical_org_dataset_summary.txt          # Detailed column explanations
-│
-└── 📊 ANALYSIS & REPORTS
-    ├── *_analysis.txt                           # Statistical analysis reports
-    └── *_summary_*.txt                          # Comprehensive summaries
-```
-
 ## 🏗️ Core Components
 
 ### 1. **Source Dataset Generators**
