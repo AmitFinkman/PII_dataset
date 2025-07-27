@@ -8,10 +8,10 @@ A comprehensive framework for generating realistic fake datasets and employer pr
 
 Modern organizations increasingly rely on LLMs for business operations, but these models must be trained to recognize and appropriately handle sensitive data. This framework provides:
 
-- ** Training Data** for PII detection algorithms
-- ** Evaluation Benchmarks** for privacy-preserving LLM systems  
-- ** Compliance Testing** for GDPR, HIPAA, and other privacy regulations
-- ** Research Foundation** for privacy-preserving AI development
+- **Training Data** for PII detection algorithms
+- **Evaluation Benchmarks** for privacy-preserving LLM systems  
+- **Compliance Testing** for GDPR, HIPAA, and other privacy regulations
+- **Research Foundation** for privacy-preserving AI development
 
 ## Project Structure
 
