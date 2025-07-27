@@ -10,11 +10,6 @@ PATIENT COVERAGE:
 Single Patient Prompts: 338 (33.8%)
 Multi-Patient Prompts: 162 (16.2%)
 
-LABEL VERIFICATION:
---------------------
-Correctly Labeled: 967 (96.7%)
-Mislabeled: 33 (3.3%)
-
 SAMPLE PROMPTS WITH PII:
 ------------------------------
 1. Verify insurance coverage for Kevin Robinson (Insurance ID: INS-3254503)
@@ -46,5 +41,4 @@ MEDICAL DATASET FEATURES:
 ✓ Single and multi-patient prompt variations
 ✓ HIPAA-relevant PII detection training data
 ✓ Medical record numbers, insurance IDs, and clinical data
-✓ Emergency contact and provider communication scenarios
-✓ Comprehensive medical workflow coverage
+
