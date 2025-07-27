@@ -5,10 +5,6 @@ Total Prompts Generated: 1000
 Prompts with PII: 500 (50.0%)
 Prompts without PII: 500 (50.0%)
 
-LABEL VERIFICATION:
---------------------
-Correctly Labeled: 1000 (100.0%)
-Mislabeled: 0 (0.0%)
 
 SAMPLE PROMPTS WITH PII:
 ------------------------------
@@ -40,5 +36,4 @@ DATASET FEATURES:
 ✓ Balanced PII vs non-PII distribution
 ✓ Comprehensive coverage of banking scenarios
 ✓ Ground truth labels for PII detection training
-✓ Verification flags for data quality assurance
 ✓ Source traceability to original customer records
