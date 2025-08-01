@@ -1,0 +1,99 @@
+EDUCATION SERVICES DATASET - COMPREHENSIVE ANALYSIS REPORT
+======================================================================
+
+Total Student Records: 500
+Total PII Instances Found: 69008
+Average PII per Record: 138.02
+
+PII Type Distribution:
+------------------------------
+ACADEMIC_YEAR: 1000 (1.4%)
+ADDRESS: 4608 (6.7%)
+DATE_OF_BIRTH: 1652 (2.4%)
+EMAIL: 2500 (3.6%)
+GPA: 2792 (4.0%)
+GRADE_LEVEL: 412 (0.6%)
+INSTITUTION_LEVEL: 2134 (3.1%)
+INSTITUTION_NAME: 1672 (2.4%)
+PARENT_ID: 1000 (1.4%)
+PERSON_NAME: 44076 (63.9%)
+PHONE: 347 (0.5%)
+SEMESTER: 1004 (1.5%)
+SSN: 144 (0.2%)
+STAFF_ROLE: 2500 (3.6%)
+STUDENT_ID: 500 (0.7%)
+STUDENT_TYPE: 663 (1.0%)
+TEACHER_ID: 1000 (1.4%)
+UNAVAILABLE_FIELD: 356 (0.5%)
+ZIP_CODE: 648 (0.9%)
+
+EDUCATION DEMOGRAPHICS:
+==============================
+
+Grade Level Distribution:
+  College Undergraduate: 100 (20.0%)
+  Middle School (6-8): 90 (18.0%)
+  High School (9-12): 113 (22.6%)
+  Elementary (K-5): 107 (21.4%)
+  Graduate: 90 (18.0%)
+
+Student Type Distribution:
+  Special Education: 86 (17.2%)
+  Regular Education: 96 (19.2%)
+  Gifted and Talented: 103 (20.6%)
+  English Language Learner: 114 (22.8%)
+  At-Risk: 101 (20.2%)
+
+Performance Level Distribution:
+  Excellent (3.8-4.0): 103 (20.6%)
+  Good (3.0-3.7): 102 (20.4%)
+  Below Average (2.0-2.4): 95 (19.0%)
+  Poor (Below 2.0): 104 (20.8%)
+  Average (2.5-2.9): 96 (19.2%)
+
+Institution Level Distribution:
+  Middle School: 103 (20.6%)
+  Community College: 95 (19.0%)
+  Elementary School: 112 (22.4%)
+  University: 89 (17.8%)
+  High School: 101 (20.2%)
+
+Attendance Status Distribution:
+  Chronic Absenteeism: 92 (18.4%)
+  Good: 94 (18.8%)
+  Poor: 100 (20.0%)
+  Fair: 101 (20.2%)
+  Excellent: 113 (22.6%)
+
+DATASET FEATURES:
+====================
+✓ Grade level-based course relationships
+✓ Performance level intervention matching
+✓ Student type service alignment
+✓ Institution level course offerings
+✓ Realistic academic progression patterns
+✓ Name-based email generation
+✓ Comprehensive PII detection (22 types)
+
+Sample PII Findings from First Record:
+----------------------------------------
+Type: PERSON_NAME, Value: STUDENT ACADEMIC, Position: 0-16
+Type: PERSON_NAME, Value: NORTH HIGH, Position: 26-36
+Type: PERSON_NAME, Value: Student ID, Position: 44-54
+Type: PERSON_NAME, Value: Academic Year, Position: 68-81
+Type: PERSON_NAME, Value: North High, Position: 125-135
+Type: PERSON_NAME, Value: High School, Position: 144-155
+Type: PERSON_NAME, Value: STUDENT INFORMATION, Position: 158-177
+Type: PERSON_NAME, Value: Danielle Johnson, Position: 185-201
+Type: PERSON_NAME, Value: Date of, Position: 202-209
+Type: PERSON_NAME, Value: Not Available, Position: 233-246
+Type: PERSON_NAME, Value: Shane Harbors, Position: 260-273
+Type: PERSON_NAME, Value: Port Lindachester, Position: 275-292
+Type: PERSON_NAME, Value: Student Type, Position: 303-315
+Type: PERSON_NAME, Value: Gifted and, Position: 317-327
+Type: PERSON_NAME, Value: Grade Level, Position: 337-348
+Type: PERSON_NAME, Value: High School, Position: 350-361
+Type: PERSON_NAME, Value: GUARDIAN INFORMATION, Position: 377-397
+Type: PERSON_NAME, Value: Primary Contact, Position: 399-414
+Type: PERSON_NAME, Value: Joshua Walker, Position: 416-429
+Type: PERSON_NAME, Value: Parent ID, Position: 490-499
