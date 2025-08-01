@@ -1,0 +1,119 @@
+LEGAL SERVICES DATASET - COMPREHENSIVE ANALYSIS REPORT
+======================================================================
+
+Total Legal Case Records: 500
+Total PII Instances Found: 66417
+Average PII per Record: 132.83
+
+PII Type Distribution:
+------------------------------
+ADDRESS: 6069 (9.1%)
+BAR_NUMBER: 1500 (2.3%)
+BILLING_RATE: 2626 (4.0%)
+CASE_NUMBER: 500 (0.8%)
+CASE_STATUS: 1000 (1.5%)
+CLIENT_TYPE: 1000 (1.5%)
+COURT_JURISDICTION: 1038 (1.6%)
+CREDENTIAL: 1020 (1.5%)
+DATE_OF_BIRTH: 3500 (5.3%)
+DOCKET_NUMBER: 500 (0.8%)
+EMAIL: 1500 (2.3%)
+FIRM_TYPE: 242 (0.4%)
+LAW_SCHOOL: 743 (1.1%)
+LEGAL_DOCUMENT: 204 (0.3%)
+PERSON_NAME: 38547 (58.0%)
+PHONE: 84 (0.1%)
+PRACTICE_AREA: 1409 (2.1%)
+SETTLEMENT_AMOUNT: 2626 (4.0%)
+SSN: 359 (0.5%)
+UNAVAILABLE_FIELD: 982 (1.5%)
+ZIP_CODE: 968 (1.5%)
+
+LEGAL CASE DEMOGRAPHICS:
+==============================
+
+Practice Area Distribution:
+  Corporate Law: 44 (8.8%)
+  Real Estate: 30 (6.0%)
+  Bankruptcy: 35 (7.0%)
+  Employment Law: 49 (9.8%)
+  Criminal Defense: 40 (8.0%)
+  Tax Law: 38 (7.6%)
+  Estate Planning: 45 (9.0%)
+  Immigration: 44 (8.8%)
+  Family Law: 41 (8.2%)
+  Intellectual Property: 46 (9.2%)
+  Environmental Law: 46 (9.2%)
+  Personal Injury: 42 (8.4%)
+
+Client Type Distribution:
+  Corporation: 102 (20.4%)
+  Individual: 95 (19.0%)
+  Small Business: 111 (22.2%)
+  Non-Profit: 97 (19.4%)
+  Government Entity: 95 (19.0%)
+
+Case Complexity Distribution:
+  Moderate: 138 (27.6%)
+  Complex: 133 (26.6%)
+  Simple: 114 (22.8%)
+  Highly Complex: 115 (23.0%)
+
+Case Status Distribution:
+  Pending Discovery: 40 (8.0%)
+  Active: 66 (13.2%)
+  On Appeal: 54 (10.8%)
+  Closed - Judgment: 59 (11.8%)
+  Trial Preparation: 55 (11.0%)
+  Closed - Dismissed: 51 (10.2%)
+  Settlement Negotiations: 65 (13.0%)
+  In Mediation: 47 (9.4%)
+  Closed - Settled: 63 (12.6%)
+
+Firm Type Distribution:
+  Government Legal Office: 62 (12.4%)
+  Mid-Size Firm (11-50): 65 (13.0%)
+  Big Law (200+): 65 (13.0%)
+  Solo Practice: 49 (9.8%)
+  Small Firm (2-10): 59 (11.8%)
+  Large Firm (51-200): 69 (13.8%)
+  Corporate Legal Department: 70 (14.0%)
+  Boutique Firm: 61 (12.2%)
+
+Jurisdiction Type Distribution:
+  Local: 167 (33.4%)
+  Federal: 154 (30.8%)
+  State: 179 (35.8%)
+
+DATASET FEATURES:
+====================
+✓ Practice area-based case type relationships
+✓ Case complexity billing rate matching
+✓ Attorney specialization alignment
+✓ Court jurisdiction assignments
+✓ Realistic legal document patterns
+✓ Name-based email generation
+✓ Comprehensive PII detection (21 types)
+
+Sample PII Findings from First Record:
+----------------------------------------
+Type: PERSON_NAME, Value: LEGAL CASE, Position: 0-10
+Type: PERSON_NAME, Value: JAMES GROUP, Position: 20-31
+Type: PERSON_NAME, Value: LAW FIRM, Position: 32-40
+Type: PERSON_NAME, Value: Case Number, Position: 41-52
+Type: PERSON_NAME, Value: New York, Position: 94-102
+Type: PERSON_NAME, Value: Supreme Court, Position: 103-116
+Type: PERSON_NAME, Value: CLIENT INFORMATION, Position: 118-136
+Type: PERSON_NAME, Value: Danielle Johnson, Position: 144-160
+Type: PERSON_NAME, Value: Date of, Position: 161-168
+Type: PERSON_NAME, Value: Susan Junction, Position: 219-233
+Type: PERSON_NAME, Value: Client Type, Position: 318-329
+Type: PERSON_NAME, Value: Government Entity, Position: 331-348
+Type: PERSON_NAME, Value: CASE DETAILS, Position: 350-362
+Type: PERSON_NAME, Value: Practice Area, Position: 364-377
+Type: PERSON_NAME, Value: Environmental Law, Position: 379-396
+Type: PERSON_NAME, Value: Primary Case, Position: 397-409
+Type: PERSON_NAME, Value: Pollution Cleanup, Position: 416-433
+Type: PERSON_NAME, Value: All Case, Position: 434-442
+Type: PERSON_NAME, Value: Pollution Cleanup, Position: 450-467
+Type: PERSON_NAME, Value: Land Use, Position: 469-477
