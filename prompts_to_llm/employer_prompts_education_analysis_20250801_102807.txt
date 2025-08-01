@@ -1,0 +1,83 @@
+EDUCATION PROFESSIONAL PROMPTS - COMPREHENSIVE ANALYSIS REPORT
+======================================================================
+
+Total Prompts Generated: 1000
+Prompts with PII: 1000 (100.0%)
+Prompts without PII: 0 (0.0%)
+Verification Success Rate: 50.0%
+Total PII Instances: 3843
+Average PII per PII-containing Prompt: 3.84
+
+PII Type Distribution:
+------------------------------
+ACADEMIC_YEAR: 23 (0.6%)
+ADDRESS: 23 (0.6%)
+DATE_OF_BIRTH: 25 (0.7%)
+EMAIL: 44 (1.1%)
+GPA: 41 (1.1%)
+INSTITUTION_NAME: 21 (0.5%)
+PERSON_NAME: 3520 (91.6%)
+PHONE: 4 (0.1%)
+SEMESTER: 43 (1.1%)
+STUDENT_ID: 64 (1.7%)
+TEACHER_ID: 24 (0.6%)
+ZIP_CODE: 11 (0.3%)
+
+ROLE CONTEXT DISTRIBUTION:
+==============================
+Principal: 102 (10.2%)
+Department Head: 88 (8.8%)
+Teacher: 95 (9.5%)
+Academic Advisor: 102 (10.2%)
+Counselor: 106 (10.6%)
+Registrar: 105 (10.5%)
+Curriculum Coordinator: 107 (10.7%)
+Special Education Coordinator: 106 (10.6%)
+Student Services: 94 (9.4%)
+Vice Principal: 95 (9.5%)
+
+GRADE LEVEL DISTRIBUTION:
+==============================
+High School (9-12): 214 (21.4%)
+Elementary (K-5): 192 (19.2%)
+Middle School (6-8): 203 (20.3%)
+College Undergraduate: 190 (19.0%)
+Graduate: 201 (20.1%)
+
+DATASET FEATURES:
+====================
+✓ Realistic educational professional scenarios
+✓ Grade level-specific context
+✓ Role-based prompt generation
+✓ Comprehensive PII detection (16 types)
+✓ Multi-entity prompt support
+✓ Verification and quality control
+✓ Source entity tracking
+
+SAMPLE PROMPTS:
+===============
+WITH PII:
+1. Review Standardized Tests scores for Ronald Villarreal: 84%
+   PII Types: PERSON_NAME
+
+2. Review special education legal requirements
+   PII Types: PERSON_NAME
+
+3. Schedule speech therapy session for Cheryl Davis with Krista Williams
+   PII Types: PERSON_NAME
+
+4. Implement new student information system
+   PII Types: PERSON_NAME
+
+5. Enroll Kimberly Lara in Art for Spring semester
+   PII Types: SEMESTER, PERSON_NAME
+
+WITHOUT PII:
+
+QUALITY METRICS:
+====================
+Average Prompt Length: 58.3 characters
+Shortest Prompt: 36 characters
+Longest Prompt: 114 characters
+Average Entities per Multi-entity Prompt: 3.63
+Multi-entity Prompts: 1000 (100.0%)
